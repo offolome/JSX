@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Container className='mt-5'>
-        <Card style={{ width: '24rem' }}>
+        <Card style={{ width: '21rem' }}>
           <Card.Body>
             <Image />
             <Name />
@@ -22,7 +22,7 @@ function App() {
         </Card>
 
         <p style={{color: "red"}}>
-           {prenom ? `Bonjour, ${prenom}` : "Bonjour !"}
+          {prenom ? `Bonjour, ${prenom}` : "Bonjour !"}
         </p>
       </Container>
     </>
