@@ -1,5 +1,5 @@
 import React from "react";
-import product from "../Data/product";
+import product from "../../Data/Product/product";
 
 function Description () {
     return (

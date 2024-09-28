@@ -1,7 +1,7 @@
 import React from "react";
-import product from "../Data/product";
+import product from "../../Data/Product/product";
 
-function Name () {
+const Name = () => {
     return <h3>{product.name}</h3>
 }
 

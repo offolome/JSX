@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Name from './Components/name';
-import Image from './Components/image';
-import Price from './Components/price';
-import Description from './Components/description';
+import Name from './Components/Name/name';
+import Image from './Components/Image/image';
+import Price from './Components/Price/price';
+import Description from './Components/Description/description';
 import { Card, Container } from 'react-bootstrap';
 
-const prenom ="Jonathan"
+const prenom ="Jonathan";
 
 function App() {
   return (
